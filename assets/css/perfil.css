@@ -1,0 +1,332 @@
+.perfil {
+    background: #2c3e50;
+    width: 80%;
+    height: 300px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+}
+.perfil_img {
+    width: 40%;
+    height: 100%;
+    border-right: 2px solid powderblue;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.perfil_img img {
+    width: 160px;
+    height: 160px;
+}
+.perfil_nome {
+    width: 150px;
+    height: 90px;
+    text-align: center;
+    color: #ffffff;
+	text-shadow: 2px 2px #0984e3;
+    font-size: 20px;
+}
+.perfil_data {
+    width: 60%;
+    height: 100%;
+}
+.tipo_crown {
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.tipo_crown img {
+    width: 45px;
+    height: 45px;
+}
+.perfil_buttons {
+    background: pink;
+    width: 90%;
+    height: 190px;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.perfil_buttons button {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 3px;
+}
+.modal {
+    position: absolute;
+    background: white;
+    display: none;
+    transition: 1s ease;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.modal_content {
+    width: 60%;
+    border: 2px solid #16a085;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal_header {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #16a085;
+    display: flex;
+}
+.modal_left {
+    width: 40%;
+    height: 100%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.modal_right {
+    width: 60%;
+    height: 100%;
+    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal_right button {
+    background: none;
+}
+.modal_right button img {
+    width: 20px;
+    height: 20px;
+}
+.modal_form {
+    width: 98%;
+    height: 300px;
+}
+.input_space {
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid #16a085;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.input_space input {
+    width: 40%;
+    height: 30px;
+    border: 2px solid #16a085;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-left: 15px;
+    outline: none;
+}
+.input_space_radio {
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    padding-left: 30x;
+    border-bottom: 2px solid palegreen;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.radio input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.modal_button {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal_button button {
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+}
+.crud {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid palegreen;
+    border-radius: 5px;
+}
+.crud_header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    border-bottom: 2px solid palegreen;
+}
+.crud_left {
+    width: 60%;
+    height: 100%;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.crud_right {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.crud_right button {
+    width: 130px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.atualizar_button {
+    background: #ffffff;
+    color: #2c3e50;
+    border: 2px solid #575fcf;
+}
+.atualizar_button:hover {
+    background: #ffa801;
+    color: #ffffff;
+    border: none;
+    transition: 1s ease;
+}
+.crud_names {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.filme_id {
+    width: 10%;
+    height: 100%;
+    border-right: 2px solid palegreen;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme_nome {
+    width: 300px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme_capa {
+    width: 180px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme_lancamento {
+    width: 200px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme_generos {
+    width: 180px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filme_acoes {
+    width: 265px;
+    height: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crud_filmes {
+    width: 100%;
+    height: 100px;
+    border-bottom: 2px solid palegreen;
+    display: flex;
+}
+.crud_filmes2 {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.crud_filmes div {
+    border-right: 2px solid palegreen;
+}
+.crud_filmes .filme_capa img {
+    width: 60px;
+    height: 100%;
+}
+.crud_filmes div button {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.crud_editar {
+    background: #192a56;
+}
+.crud_excluir {
+    background: #e74c3c;
+}
+.crud_excluir {
+    background: #ff3f34;
+    transition: 0.6 ease;
+}
+.crudd {
+    display: none;
+}
+.crud_filmes_acoes {
+    width: 100%;
+    height: 80px;
+    border-bottom: 2px solid palegreen;
+    display: none;
+    justify-content: flex-end;
+}
+.crud_filmes_acoes_buttons {
+    width: 267px;
+    height: 100%;
+    border-left: 2px solid palegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.crud_filmes_acoes_buttons_header {
+    margin-bottom: 10px;
+}
+.crud_filmes_acoes_buttons button {
+    width: 80px;
+    height: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}

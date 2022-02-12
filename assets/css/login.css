@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.main {
+    width: 80%;
+    height: 91vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login {
+    background: #ffffff;
+    width: 600px;
+    height: 350px;
+    border: 1px solid darkolivegreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.login_logo {
+    background: #2c3e50;
+    width: 200px;
+    height: 350px;
+    box-shadow: #ee5253;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login_logo img {
+    width: 100px;
+    height: 100px;
+}
+.logo_text {
+    height: 40px;
+    color: #ffffff;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.login_content {
+    width: 400px;
+    height: 100%;
+    border-radius: 0px 15px 15px 0px;
+}
+.login_content_header {
+    height: 70px;
+    font-size: 30px;
+    color: #2c3e50;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_input {
+    width: 90%;
+    height: 280px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form_input input {
+    background: none;
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid black;
+}
+.error_box {
+    background: #ee5253;
+    height: 30px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_input button {
+    background: #ffffff;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.form_input button:hover {
+    background: #2c3e50;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
